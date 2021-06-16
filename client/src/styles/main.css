@@ -1,0 +1,26 @@
+.ui.menu.header-menu {
+  position: relative;
+  background-color: white;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  height: 60px;
+  margin: 0;
+}
+
+.item.header-item:last-child {
+  margin-right: 2rem;
+}
+
+.ui.grid.hero-grid {
+  position: relative;
+  min-width: 100vw;
+  height: 90vh;
+  background-image: url(http://localhost:3000/static/media/business.deb01777.jpg);
+  background-size: cover;
+  margin-top: 0rem;
+}
+
+.ui.header.hero-header {
+  font-family: "Montserrat";
+  font-size: 3em;
+}/*# sourceMappingURL=main.css.map */
