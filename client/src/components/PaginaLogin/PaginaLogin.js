@@ -25,28 +25,17 @@ const PaginaLogin = () => {
                     </a>
                   </div>
                 </div>
-                
                 <input type="password" className="form-control" id="senha"/>
-
-
               </div>
               <div className="row mt-4">
                 <button className="btn btn-primary btn-block py-3">Login</button>
-
               </div>
-
 
 								<div class="mt-4 text-center">
 									Não tem uma conta? <a href="registro.html">Cadastre-se</a>
 								</div>
 
             </form>
-
-
-
-
-
-
           </div>
         </div>
       </div>

@@ -1,6 +1,9 @@
 ///// COMPONENTES
 
 
+/// BASE
+@import './base';
+
 /// VARIABLES
 @import './variables';
 
@@ -8,7 +11,12 @@
 @import 
   '../components/Header/header',
   '../components/TelaInicial/telainicial',
-  '../components/PaginaLogin/paginalogin';
+  '../components/PaginaLogin/paginalogin',
+  '../components/PaginaTabela/paginatabela',
+  '../components/PaginaTabela/TabelaCrud/ItemCrud/itemcrud',
+  '../components/PaginaTabela/TabelaCrud/tabelacrud';
+
+
 
 
 
