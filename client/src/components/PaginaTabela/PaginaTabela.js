@@ -1,29 +1,21 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
+
+import WrapperTabela from './WrapperTabela/WrapperTabela';
 import TabelaCrud from './TabelaCrud/TabelaCrud';
-import Header from '../Header/Header';
+import AdicionarRegistro from './AdicionarRegistro/AdicionarRegistro';
+
+
 
 const PaginaTabela = () => {
 
+
   return (
-    <div>
-      <Header/>
-    <div className="tabela-imagem">
-      <div className="row min-vh-100 m-0 position-relative">
-        <div className="blind"></div>
-        <div className="col-11 col-md-10 mx-auto m-5 bg-light rounded justify-content-center align-items-center shadow-lg z-index2">
-          <div className="container">
-            <h4 className="text-center mt-4 mb-4 titulo text-uppercase">Registros</h4>
-            <div className="container p-0">
-              <TabelaCrud/>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
+    <WrapperTabela>
+      <Route path="/registros" exact component={TabelaCrud}></Route>
+      <Route path="/registros/novo" exact component={AdicionarRegistro}></Route>
+    </WrapperTabela>
   );
-
-
 
 }
 

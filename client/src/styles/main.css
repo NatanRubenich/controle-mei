@@ -12,12 +12,16 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0;
+  bottom: 0;
   z-index: 0;
 }
 
 .z-index2 {
   z-index: 2;
+}
+
+a {
+  text-decoration: none;
 }
 
 .ui.menu.header-menu {
@@ -63,6 +67,11 @@
   width: 22em;
 }
 
+.login-imagem {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+}
+
 .tabela-imagem {
   background-image: url(../img/calculo.jpg);
   background-size: cover;
@@ -85,4 +94,12 @@ th {
 
 .td-registros .acoes {
   width: 10%;
+}
+
+.modal-blind {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
 }/*# sourceMappingURL=main.css.map */
