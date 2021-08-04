@@ -1,0 +1,24 @@
+
+
+.hero-image{
+  background-image: url(../img/business.jpg);
+  background-size: cover;
+}
+
+.icone {
+  background-color: white;
+  padding: 1em;
+  border-radius: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-button {
+  max-width: 9em;
+}
+
+.blind-hero {
+  @extend .blind;
+  opacity: 0.6;
+}
