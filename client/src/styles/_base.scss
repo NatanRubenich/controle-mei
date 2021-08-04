@@ -1,0 +1,55 @@
+
+///FONTES
+@font-face {
+  font-family: Slenco;
+  src: url(../fonts/Slenco-Black.otf);
+}
+
+@font-face {
+  font-family: Bahnschrift;
+  src: url('http://fonts.cdnfonts.com/css/bahnschrift');
+}
+
+
+
+
+.secFont {
+  font-family: Bahnschrift;
+}
+
+.selecionavel {
+  &:hover {
+    background-color: rgba(155, 155, 155, 0.609);
+    cursor: pointer;
+  }
+}
+
+.borderblack {
+  border: 1px solid black;
+}
+
+.blind {
+  background-color: rgba(255, 255, 255);
+  opacity: .3;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+}
+
+
+.z-index2 {
+  z-index: 2;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+// Background
+.bg-darkblue {
+  background-color: rgb(20 65 105);
+}

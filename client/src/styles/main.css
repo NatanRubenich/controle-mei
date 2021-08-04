@@ -1,0 +1,178 @@
+@font-face {
+  font-family: Slenco;
+  src: url(../fonts/Slenco-Black.otf);
+}
+@font-face {
+  font-family: Bahnschrift;
+  src: url("http://fonts.cdnfonts.com/css/bahnschrift");
+}
+.secFont {
+  font-family: Bahnschrift;
+}
+
+.selecionavel:hover {
+  background-color: rgba(155, 155, 155, 0.609);
+  cursor: pointer;
+}
+
+.borderblack {
+  border: 1px solid black;
+}
+
+.blind, .blind-hero {
+  background-color: white;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+}
+
+.z-index2 {
+  z-index: 2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-darkblue {
+  background-color: #144169;
+}
+
+.ui.menu.header-menu {
+  position: relative;
+  background-color: white;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  height: 60px;
+  margin: 0;
+}
+
+.item.header-item:last-child {
+  margin-right: 2rem;
+}
+
+.logo {
+  height: 35px;
+}
+
+.hero-image {
+  background-image: url(../img/business.jpg);
+  background-size: cover;
+}
+
+.icone {
+  background-color: white;
+  padding: 1em;
+  border-radius: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-button {
+  max-width: 9em;
+}
+
+.blind-hero {
+  opacity: 0.6;
+}
+
+.bg-cinzaclaro {
+  background-color: #eeeeee;
+}
+
+@-webkit-keyframes desaparecer {
+  from {
+    opacity: 100;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes desaparecer {
+  from {
+    opacity: 100;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.card-login {
+  width: 22em;
+}
+
+.login-imagem {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+}
+
+.tabela-imagem {
+  background-image: url(../img/calculo.jpg);
+  background-size: cover;
+}
+.tabela-imagem .titulo {
+  font-family: Slenco;
+  font-size: 3em;
+  color: #153755;
+}
+
+td {
+  padding: 1em 1em;
+  vertical-align: middle;
+}
+
+th {
+  padding: 0.8em 1em;
+  vertical-align: middle;
+}
+
+.td-registros .acoes {
+  width: 10%;
+}
+
+.smoothTransition {
+  transition: all 1s ease-in-out;
+}
+
+.itemCrud {
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+  max-height: 1000px !important;
+}
+
+.marginSetas {
+  margin-bottom: 2em;
+}
+
+.modal-blind {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+.sidebar {
+  background-color: #12623e;
+  font-size: 1.13em;
+}
+.sidebar .sidebar-item {
+  color: white;
+}
+.sidebar .sidebar-item:hover {
+  background-color: rgba(255, 255, 255, 0.103);
+}
+
+@media print {
+  .fontTNR {
+    font-family: "Times New Roman", Times, serif;
+  }
+}
+
+.font-small {
+  font-size: 0.8em;
+}/*# sourceMappingURL=main.css.map */

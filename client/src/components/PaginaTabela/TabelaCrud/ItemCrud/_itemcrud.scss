@@ -1,0 +1,27 @@
+
+
+td {
+  padding: 1em 1em;
+  vertical-align: middle;
+}
+
+th {
+  padding: .8em 1em;
+  vertical-align: middle;
+}
+
+.td-registros {
+  .acoes {
+    width: 10%;
+  }
+}
+
+.smoothTransition {
+  transition: all 1s ease-in-out ;
+}
+
+.itemCrud {
+  transition: all .2s ease-in-out;
+  overflow: hidden;
+  max-height: 1000px!important;
+}

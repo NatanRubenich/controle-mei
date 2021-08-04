@@ -1,0 +1,13 @@
+.sidebar {
+  background-color: #12623e;
+  font-size: 1.13em;
+
+  .sidebar-item {
+    color: white;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.103);
+    }
+  }
+}
+
